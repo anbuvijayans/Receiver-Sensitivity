@@ -1,4 +1,5 @@
 # Receiver-Sensitivity
+
 # Optical Receiver Sensitivity Analysis
 
 ## Objective
@@ -30,6 +31,10 @@ Receiver specifications:
 > Example: If ID ends with **43**, then ST = 4.3 × 10⁻²² A²/Hz.  
 
 Using the formulas above, calculate the receiver sensitivity.
+<img width="974" height="1599" alt="image" src="https://github.com/user-attachments/assets/ffdcf237-e837-488b-b5dd-273a040396cd" />
+
+
+
 
 ---
 
@@ -57,7 +62,13 @@ Steps:
 1. Adjust output power to **0 dBm**.  
 2. Set attenuator to **20 dB**.  
 3. Run the simulation.  
-4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.  
+4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.
+
+   <img width="1919" height="1079" alt="Screenshot 2026-02-12 101913" src="https://github.com/user-attachments/assets/0995edfc-e493-4b5c-aba9-fbe8b1bb27ba" />
+
+   <img width="1919" height="1079" alt="Screenshot 2026-02-12 102049" src="https://github.com/user-attachments/assets/cfdf4d74-085b-4d21-a7df-56df5058ed40" />
+
+
 
 ---
 
@@ -68,6 +79,9 @@ Your report should include:
   - Power readings  
   - BER analyzer output  
   - Eye diagram  
-- Discussion of differences between analytical and simulation results.  
+- Discussion of differences between analytical and simulation results.
+
+## Result
+  Thus the Experiment was successfully completed and the output is verified.
 
 ---
